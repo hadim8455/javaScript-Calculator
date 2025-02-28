@@ -1,0 +1,48 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.demo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Main-Conatiner{
+    width: 220px;
+    height: 380px;
+    background-color: aqua;
+    margin-top: 50px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+.inputContainer{
+    width: 100%;
+    border-top-right-radius: 15px;   
+    text-align: center;
+}
+.inputContainer input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: white;
+    text-align: right;
+
+}
+.ButtonContainer{
+    text-align: center;
+    width: 100%;
+    
+}
+.ButtonContainer table{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}   
+.table .td :hover{
+    color: #ffa500;
+}
